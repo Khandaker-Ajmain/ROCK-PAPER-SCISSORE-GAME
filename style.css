@@ -1,0 +1,64 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid black;
+}
+
+.wraper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.heading {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: 0.5ms;
+    border: 3px solid rgb(187, 181, 181);
+    margin: 10px 0 20px 0;
+}
+
+.options {
+    cursor: pointer;
+}
+
+.options:hover {
+    box-shadow: 0px 3px 7px 1px rgb(85 76 76 / 50%);
+}
+
+.resultImgComputer {
+    box-shadow: 0px 3px 7px 1px rgba(255, 0, 0, 0.5);
+}
+
+.resultImgUser {
+    box-shadow: 0px 3px 7px 1px rgba(0, 255, 0, 0.5);
+}
+
+.wraper div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lost, .worning {
+    color: #ff0000;
+}
+
+.won {
+    color: #008000;
+}
+
+.tie {
+    color: #ffff00;
+}
